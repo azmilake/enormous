@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "thumbnail": "/blog-1.png",
+    "title": "SEO tricks that can increase the traffic of your website",
+    "subtitle": "People have been using wrong SEO techniques on their websites.",
+    "image": "/author-1.png",
+    "author": "Jane Cooper",
+    "date": "Mar 18",
+    "duration": 5
+  },
+  {
+    "id": 2,
+    "thumbnail": "/blog-2.png",
+    "title": "10 Figma Plugins that will increase your productivity",
+    "subtitle": "All these plugins are free and you can use them forever",
+    "image": "/author-2.png",
+    "author": "Alex Berner",
+    "date": "Mar 11",
+    "duration": 3
+  },
+  {
+    "id": 3,
+    "thumbnail": "/blog-3.png",
+    "title": "How to deploy a Node JS application to a VPS",
+    "subtitle": "Step by step setting up the server and deploying the application",
+    "image": "/author-3.png",
+    "author": "Anne Grane",
+    "date": "Mar 10",
+    "duration": 20
+  },
+  {
+    "id": 4,
+    "thumbnail": "/blog-4.png",
+    "title": "How to compress image size without losing quality",
+    "subtitle": "Small images can speed up website load times",
+    "image": "/author-4.png",
+    "author": "Ban Steward",
+    "date": "Feb 20",
+    "duration": 8
+  },
+  {
+    "id": 5,
+    "thumbnail": "/blog-5.png",
+    "title": "Why is Google still not recognizing my website?",
+    "subtitle": "Improve the SEO techniques that you have used so far",
+    "image": "/author-5.png",
+    "author": "Rob Arace",
+    "date": "Feb 19",
+    "duration": 12
+  },
+  {
+    "id": 6,
+    "thumbnail": "/blog-6.png",
+    "title": "Monitor your application when errors occur in production",
+    "subtitle": "Get accurate error messages when the application crashes",
+    "image": "/author-6.png",
+    "author": "Don Rohiman",
+    "date": "Feb 7",
+    "duration": 9
+  }
+]

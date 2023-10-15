@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Albert Flores",
+    "position": "Founder",
+    "image": "/team-1.png"
+  },
+  {
+    "name": "Jane Doe",
+    "position": "Software Engineer",
+    "image": "/team-2.png"
+  },
+  {
+    "name": "John Smith",
+    "position": "Designer",
+    "image": "/team-3.png"
+  },
+  {
+    "name": "Maria Garcia",
+    "position": "UX Researcher",
+    "image": "/team-4.png"
+  },
+  {
+    "name": "Maria Garcia",
+    "position": "UX Researcher",
+    "image": "/team-5.png"
+  },
+  {
+    "name": "Maria Garcia",
+    "position": "UX Researcher",
+    "image": "/team-6.png"
+  }
+]

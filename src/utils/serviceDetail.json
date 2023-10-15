@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "/service4.png",
+    "service": "Design Files",
+    "description": "Projects are well designed using Figma. You will get the design file."
+  },
+  {
+    "icon": "/service5.png",
+    "service": "Same Day",
+    "description": "We dont want you to wait long. Everything will be finished on the same day."
+  },
+  {
+    "icon": "/service6.png",
+    "service": "Quality Code",
+    "description": "Code written according to good practice is highly maintainable."
+  },
+  {
+    "icon": "/service7.png",
+    "service": "SEO",
+    "description": "The website will appear on the first page of the search engine."
+  },
+  {
+    "icon": "/service8.png",
+    "service": "Responsive Design",
+    "description": "Access the website on any device, dont limit your visitors."
+  },
+  {
+    "icon": "/service9.png",
+    "service": "Blazing Fast",
+    "description": "A high speed website will not disappoint prospective customers."
+  }
+]

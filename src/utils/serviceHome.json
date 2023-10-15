@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "/service1.png",
+    "service": "Design",
+    "description": " The project interface will be designed first, our favorite tool is Figma"
+  },
+  {
+    "id": 2,
+    "icon": "/service2.png",
+    "service": "Develop",
+    "description": "Transform design and write business logic here. Choose the technology you want."
+  },
+  {
+    "id": 3,
+    "icon": "/service3.png",
+    "service": "Ship",
+    "description": "After the work is complete, we will send the project and all its assets to you."
+  }
+]
