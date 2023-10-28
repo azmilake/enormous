@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import ButtonPrimary from './ButtonPrimary';
-import ButtonSecondary from './ButtonSecondary';
+import { Link } from 'react-router-dom'
+import ButtonPrimary from './ButtonPrimary'
+import ButtonSecondary from './ButtonSecondary'
 
 export default function TellUs() {
   return (
@@ -12,8 +12,10 @@ export default function TellUs() {
         <Link to="/quote">
           <ButtonPrimary>Send Qoute</ButtonPrimary>
         </Link>
-        <ButtonSecondary>Ask Us</ButtonSecondary>
+        <Link to="/faq">
+          <ButtonSecondary>Ask Us</ButtonSecondary>
+        </Link>
       </div>
     </section>
-  );
+  )
 }
