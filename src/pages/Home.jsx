@@ -37,7 +37,9 @@ export default function Home() {
               <Link to="/quote">
                 <ButtonPrimary>Send Qoute</ButtonPrimary>
               </Link>
-              <ButtonSecondary>Learn More</ButtonSecondary>
+              <Link to="/faq">
+                <ButtonSecondary>Learn More</ButtonSecondary>
+              </Link>
             </div>
           </div>
         </section>
