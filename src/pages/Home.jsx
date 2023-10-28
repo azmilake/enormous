@@ -11,8 +11,6 @@ import Layout from '../components/Layout'
 import TypoMain from '../components/TypoMain'
 import TypoSecond from '../components/TypoSecond'
 import DataService from '../utils/serviceHome.json'
-import ServiceCard from '../components/ServiceCard'
-import CardServiceDev from '../components/CardServiceDev'
 
 const rows = []
 let currentRow = []
@@ -182,77 +180,6 @@ export default function Home() {
               testimoni="I am really satisfied with it. I'm good to go. It really saves me time and effort. It's is exactly what our business has been lacking. "
             />
           </div>
-        </section>
-
-        <section className="container mx-auto mt-24 px-5 lg:px-0">
-          <ServiceCard imageSrc="/service-1.png" position="left">
-            <TypoSecond
-              title="Development"
-              subtitle="Create solutions to repetitive problems, design applications and access anywhere!"
-              description="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
-              classname="mx-0"
-            />
-            <div className="flex flex-col mt-14 lg:space-y-5 space-y-0">
-              <CardServiceDev
-                icon="/card-icon-service-3.png"
-                name="Mobile App Development"
-              />
-              <CardServiceDev
-                icon="/card-icon-service-4.png"
-                name="Desktop App Development"
-              />
-              <CardServiceDev
-                icon="/card-icon-service-5.png"
-                name="Web Development"
-              />
-            </div>
-          </ServiceCard>
-
-          <ServiceCard imageSrc="/service-1.png" position="right">
-            <TypoSecond
-              title="Development"
-              subtitle="Create solutions to repetitive problems, design applications and access anywhere!"
-              description="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
-              classname="mx-0"
-            />
-            <div className="flex flex-col mt-14 lg:space-y-5 space-y-0">
-              <CardServiceDev
-                icon="/card-icon-service-3.png"
-                name="Mobile App Development"
-              />
-              <CardServiceDev
-                icon="/card-icon-service-4.png"
-                name="Desktop App Development"
-              />
-              <CardServiceDev
-                icon="/card-icon-service-5.png"
-                name="Web Development"
-              />
-            </div>
-          </ServiceCard>
-
-          <ServiceCard imageSrc="/service-1.png" position="left">
-            <TypoSecond
-              title="Development"
-              subtitle="Create solutions to repetitive problems, design applications and access anywhere!"
-              description="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
-              classname="mx-0"
-            />
-            <div className="flex flex-col mt-14 lg:space-y-5 space-y-0">
-              <CardServiceDev
-                icon="/card-icon-service-3.png"
-                name="Mobile App Development"
-              />
-              <CardServiceDev
-                icon="/card-icon-service-4.png"
-                name="Desktop App Development"
-              />
-              <CardServiceDev
-                icon="/card-icon-service-5.png"
-                name="Web Development"
-              />
-            </div>
-          </ServiceCard>
         </section>
       </Layout>
     </>
