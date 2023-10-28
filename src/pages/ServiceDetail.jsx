@@ -1,19 +1,19 @@
-import CardSectionRight from '../components/CardSectionRight';
-import CardService from '../components/CardService';
-import Layout from '../components/Layout';
-import TypoMain from '../components/TypoMain';
-import TypoSecond from '../components/TypoSecond';
-import DataService from '../utils/serviceDetail.json';
+import CardService from '../components/CardService'
+import Layout from '../components/Layout'
+import TypoMain from '../components/TypoMain'
+import TypoSecond from '../components/TypoSecond'
+import DataService from '../utils/serviceDetail.json'
 
-import Faq from '../components/Faq';
+import Faq from '../components/Faq'
+import ServiceCard from '../components/ServiceCard'
 
-const rows = [];
-let currentRow = [];
+const rows = []
+let currentRow = []
 for (let i = 0; i < DataService.length; i++) {
-  currentRow.push(DataService[i]);
+  currentRow.push(DataService[i])
   if (currentRow.length === 3 || i === DataService.length - 1) {
-    rows.push(currentRow);
-    currentRow = [];
+    rows.push(currentRow)
+    currentRow = []
   }
 }
 
@@ -28,7 +28,7 @@ export default function ServiceDetail() {
           />
         </div>
 
-        <CardSectionRight image="/service-2.png" classname2="hidden">
+        <ServiceCard imageSrc="/service-2.png" position="left">
           <TypoSecond description="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.We can build you a website, a mobile app and a desktop app. All types of applications have a good security system, are easy to maintain, and are high speed." />
           <ul className="space-y-3 mt-10">
             <li className="flex items-center space-x-5">
@@ -56,7 +56,7 @@ export default function ServiceDetail() {
               </p>
             </li>
           </ul>
-        </CardSectionRight>
+        </ServiceCard>
 
         <div className="mt-32 mb-32">
           <div className="flex flex-col items-center justify-center text-center">
@@ -88,5 +88,5 @@ export default function ServiceDetail() {
         <Faq />
       </section>
     </Layout>
-  );
+  )
 }

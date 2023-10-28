@@ -1,10 +1,9 @@
-import CardSectionLeft from '../components/CardSectionLeft';
-import CardSectionRight from '../components/CardSectionRight';
-import CardServiceDesign from '../components/CardServiceDesign';
-import CardServiceDev from '../components/CardServiceDev';
-import Layout from '../components/Layout';
-import TypoMain from '../components/TypoMain';
-import TypoSecond from '../components/TypoSecond';
+import CardServiceDev from '../components/CardServiceDev'
+import CardServiceDesign from '../components/CardServiceDesign'
+import Layout from '../components/Layout'
+import ServiceCard from '../components/ServiceCard'
+import TypoMain from '../components/TypoMain'
+import TypoSecond from '../components/TypoSecond'
 
 export default function Services() {
   return (
@@ -17,7 +16,7 @@ export default function Services() {
           />
         </div>
 
-        <CardSectionRight image="/service-1.png" classname="mb-24">
+        <ServiceCard imageSrc="/service-1.png" position="left">
           <div className="mb-14">
             <TypoSecond
               title="Ui Design"
@@ -38,13 +37,9 @@ export default function Services() {
               desc="Create vivid prototypes for your designs."
             />
           </div>
-        </CardSectionRight>
+        </ServiceCard>
 
-        <CardSectionLeft
-          image="/service-2.png"
-          classname="mb-28"
-          classname2="hidden"
-        >
+        <ServiceCard imageSrc="/service-2.png" position="right">
           <TypoSecond
             title="Development"
             subtitle="Create solutions to repetitive problems, design applications and access anywhere!"
@@ -65,36 +60,9 @@ export default function Services() {
               name="Web Development"
             />
           </div>
-          <div className="mt-8 text-base font-semibold flex items-center space-x-3 justify-end">
-            <p>
-              <a href="#">Service Detail</a>
-            </p>
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4.1665 10H15.8332"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M10 4.16675L15.8333 10.0001L10 15.8334"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </CardSectionLeft>
+        </ServiceCard>
 
-        <CardSectionRight image="/service-3.png" classname="mb-40">
+        <ServiceCard imageSrc="/service-3.png" position="left">
           <div className="mb-14">
             <TypoSecond
               title="Maintanance"
@@ -135,8 +103,8 @@ export default function Services() {
               </div>
             </div>
           </div>
-        </CardSectionRight>
+        </ServiceCard>
       </section>
     </Layout>
-  );
+  )
 }

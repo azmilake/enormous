@@ -1,5 +1,5 @@
-import Layout from '../components/Layout';
-import TypoMain from '../components/TypoMain';
+import Layout from '../components/Layout'
+import TypoMain from '../components/TypoMain'
 
 export default function TermsCondition() {
   return (
@@ -51,5 +51,5 @@ export default function TermsCondition() {
         </div>
       </section>
     </Layout>
-  );
+  )
 }

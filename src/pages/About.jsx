@@ -1,17 +1,17 @@
-import CardSectionRight from '../components/CardSectionRight';
-import Client from '../components/Client';
-import Layout from '../components/Layout';
-import TypoMain from '../components/TypoMain';
-import TypoSecond from '../components/TypoSecond';
-import DataTeam from '../utils/team.json';
+import Client from '../components/Client'
+import Layout from '../components/Layout'
+import ServiceCard from '../components/ServiceCard'
+import TypoMain from '../components/TypoMain'
+import TypoSecond from '../components/TypoSecond'
+import DataTeam from '../utils/team.json'
 
-const rows = [];
-let currentRow = [];
+const rows = []
+let currentRow = []
 for (let i = 0; i < DataTeam.length; i++) {
-  currentRow.push(DataTeam[i]);
+  currentRow.push(DataTeam[i])
   if (currentRow.length === 3 || i === DataTeam.length - 1) {
-    rows.push(currentRow);
-    currentRow = [];
+    rows.push(currentRow)
+    currentRow = []
   }
 }
 
@@ -20,14 +20,14 @@ export default function About() {
     <Layout>
       <section className="container mx-auto px-5 lg:px-0">
         <div className="mt-24 border-b border-white/10 pb-32">
-          <CardSectionRight image="/about-pic.png" classname2="hidden">
+          <ServiceCard imageSrc="/about-pic.png" position="left">
             <TypoMain
               title="About"
               subtitle="We are creative, smart and hardworking people"
               description="Several creative people gather in the same place - that's Collosal. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields."
               classname="-mx-0.5"
             />
-          </CardSectionRight>
+          </ServiceCard>
         </div>
 
         <div className="flex flex-col justify-center items-center text-center mt-20">
@@ -110,5 +110,5 @@ export default function About() {
         </div>
       </section>
     </Layout>
-  );
+  )
 }

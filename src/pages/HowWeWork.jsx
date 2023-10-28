@@ -1,8 +1,7 @@
-import CardSectionLeft from '../components/CardSectionLeft';
-import CardSectionRight from '../components/CardSectionRight';
-import Layout from '../components/Layout';
-import TypoMain from '../components/TypoMain';
-import TypoSecond from '../components/TypoSecond';
+import Layout from '../components/Layout'
+import ServiceCard from '../components/ServiceCard'
+import TypoMain from '../components/TypoMain'
+import TypoSecond from '../components/TypoSecond'
 
 export default function HowWeWork() {
   return (
@@ -15,11 +14,7 @@ export default function HowWeWork() {
           />
         </div>
 
-        <CardSectionRight
-          image="/service-4.png"
-          classname="mb-24"
-          classname2="hidden"
-        >
+        <ServiceCard imageSrc="/service-4.png" position="left">
           <div className="mb-14">
             <TypoSecond
               title="Step 01"
@@ -30,13 +25,9 @@ export default function HowWeWork() {
               classname="mx-0"
             />
           </div>
-        </CardSectionRight>
+        </ServiceCard>
 
-        <CardSectionLeft
-          image="/service-5.png"
-          classname="mb-28"
-          classname2="hidden"
-        >
+        <ServiceCard imageSrc="/service-5.png" position="right">
           <TypoSecond
             title="Step 02"
             subtitle="Doing planning, design and development until everything is finished"
@@ -45,13 +36,9 @@ export default function HowWeWork() {
             In this step, the application is 100% complete."
             classname="mx-0"
           />
-        </CardSectionLeft>
+        </ServiceCard>
 
-        <CardSectionRight
-          image="/service-6.png"
-          classname="mb-40"
-          classname2="hidden"
-        >
+        <ServiceCard imageSrc="/service-4.png" position="left">
           <div className="mb-14">
             <TypoSecond
               title="Step 03"
@@ -62,8 +49,8 @@ export default function HowWeWork() {
               classname="mx-0 lg:w-[430px]"
             />
           </div>
-        </CardSectionRight>
+        </ServiceCard>
       </section>
     </Layout>
-  );
+  )
 }
